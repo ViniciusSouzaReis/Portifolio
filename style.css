@@ -3,17 +3,15 @@ body {
     font-family: monospace;
 }
 
-h2 {
-    font-family: fantasy;
-    font-size: 25px;
-}
-
 h1{
     font-size: 2em;
+    text-align: center;
 }
 
 #descricao {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
 }
 
-
+h3 {
+    text-align: center;
+}
