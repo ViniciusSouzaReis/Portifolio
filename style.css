@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(148, 209, 190);
+    font-family: monospace;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+#descricao {
+    font-family: 'Times New Roman', Times, serif;
+}
