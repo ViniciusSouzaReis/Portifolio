@@ -1,35 +1,52 @@
-body {
-    background-color: rgb(0,128,128);
+#nome {
     font-family: monospace;
+    border: solid 1px black;
+    text-align: center;
 }
 
-h1{
-    font-size: 2em;
-    text-align: center;
+#link-foto {
+    border: solid 1px black;
+    float: left;
+    padding: 10px;
+    background-color: aqua;
+    text-decoration: none;
 }
 
 #descricao {
-    font-family: fantasy;
+    font-family: sans-serif;
+    border: solid 1px black;
+    height: 270px;
+    text-align: justify;
 }
 
-h3 {
-    text-align: center;
+body {
+    background-color: darkgreen;
 }
 
-.rede-social1 {
-    position: absolute;
-    z-index: 1;
-    left: 1%;
+div {
+    font-style: italic;
 }
 
-.rede-social2 {
-    position: absolute;
-    z-index: 2;
-    left: 48%;
+.list1 {
+    font-size: 15px;
 }
 
-.rede-social3 {
-    position: absolute;
-    z-index: 3;
-    right: 1%;   
+.list2 {
+    font-size: 30px;
+}
+
+.list3 {
+    font-size: 40px;
+}
+
+ul li:nth-child(odd) {
+    background-color: chartreuse;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
 }
